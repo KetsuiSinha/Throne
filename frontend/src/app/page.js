@@ -1,8 +1,8 @@
-import LandingPage from "@/components/LandingPage/LandingPage";
-import Image from "next/image";
+import DashboardPage from '@/components/Dashboard/page'
+import LandingPage from '@/components/LandingPage/LandingPage'
 
-export default function Home() {
+export default function Home () {
   return (
-    <LandingPage/>
-  );
+    <DashboardPage/>
+  )
 }
